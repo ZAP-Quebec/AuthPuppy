@@ -1,0 +1,84 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: home, action: index }
+  
+homepageadmin:
+  url:   /admin
+  param: { module: home, action: dashboard }
+  
+change_language:
+  url:   /change_language
+  param: { module: home, action: changeLanguage }
+
+catchall:
+  url:   /:action
+  param: { module: node }
+  requirements:
+    action: (auth|portal|login|ping|logout)
+
+# Legacy
+catchall2:
+  url:   /:action/
+  param: { module: node }
+  requirements:
+    action: (auth|ping|login|portal|logout)
+    
+# Legacy
+catchall3:
+  url:   /:action/index.php
+  param: { module: node }
+  requirements:
+    action: (auth|ping|login|portal)
+    
+gw_messages:
+  url:  /gw_message.php
+  param: {module:node, action:gwmessage }
+
+sf_guard_signin:
+  url:   /logindoctrine
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logoutdoctrine
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_passworddoctrine
+  param: { module: sfGuardAuth, action: password }
+ 
+install_index:
+  url:   /install
+  param: { module: install, action: index, page:1 } 
+  
+install_index_page:
+  url:   /install/:page
+  param: { module: install, action: index }
+  requirements:
+    page: \d+
+
+node_edit:
+  url:   /node/edit/:id
+  class:   sfDoctrineRoute
+  options: { model: Node, type: object, column: id }
+  param: { module: node, action: edit }
+  
+node_action:
+  url:   /node/:action
+  param: { module: node }
+  
+node_index:
+  url:   /node
+  param: { module: node, action: index }
+  
+configuration_page:
+  url: /configure
+  param: { module: install, action:configure }
+
+#default:
+#  url:   /:module/:action/*
+
+

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="fr" datatype="plaintext" original="messages" date="2011-03-23T18:35:37Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Nodes list</source>
+        <target>Liste des noeuds</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Node Name</source>
+        <target>Nom du noeud</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>GW ID</source>
+        <target>Gw Id</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>WAN IP</source>
+        <target>IP Wan</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>WD Uptime</source>
+        <target>WD Uptime</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Last HB</source>
+        <target>Dernier HB</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>The requested node was not found on the server.</source>
+        <target>Le noeud demandé n'est pas sur le serveur</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>There are %1% active nodes in the network.</source>
+        <target>Il y a %1% points d'accès actifs sur le réseau.</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>There are %1% active connections.</source>
+        <target>Il y a actuellement %1% usagers connectés.</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Active Connections</source>
+        <target>Connections actives</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Deployment status</source>
+        <target>Status de déploiement</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Required.</source>
+        <target>Obligatoire</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Invalid.</source>
+        <target>Invalide.</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>At least %min% values must be selected (%count% values selected).</source>
+        <target>Au moins %min% valeurs doivent être sélectionnées (%count% sélectionnées).</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>At most %max% values must be selected (%count% values selected).</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>CSRF attack detected.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>gw_id</source>
+        <target>id gw</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>nodes_list</source>
+        <target>Liste des noeuds</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Message: </source>
+        <target>Message:</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Configure auth server</source>
+        <target>Configurer le serveur</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Welcome administrator</source>
+        <target>Bienvenue administrateur</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Manage nodes</source>
+        <target>Gérer les noeuds</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Administrative login</source>
+        <target>Login administrateur</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Need help?</source>
+        <target>Besoin d'aide?</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Permissions</source>
+        <target>Permissions</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Finish</source>
+        <target>Terminer</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>The database has been installed and initialized, your options from here are</source>
+        <target>La base de données a été installée et initialisée.  Vos options sont maintenant:</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Configure the server's default values</source>
+        <target>Configurer les valeurs par défaut du serveur</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Add new nodes (hotspots) to the auth server</source>
+        <target>Ajouter des hotspots au serveur</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Installed version</source>
+        <target>Version installée</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Check for newer version</source>
+        <target>Vérifier s'il y a des nouvelles versions</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Go to install page</source>
+        <target>Aller à la page d'installation</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Database and user configuration</source>
+        <target>Configuration de base de données et usager</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Admin user configuration</source>
+        <target>Configuration de l'administrateur</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Please enter the credentials of a first admin user</source>
+        <target>Veuillez entrer les informations pour un premier utilisateur administrateur</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Database creation/update</source>
+        <target>Création/mise à jour de la BD</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>User list</source>
+        <target>Liste des usagers</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Select authentication</source>
+        <target>Sélectionner l'authentificateur</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Url must be of the form 'http://site' or 'https://site'</source>
+        <target>Url doivent être de la form 'http://site' ou 'https://site'</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>File is too large (maximum is %max_size% bytes).</source>
+        <target>Fichier trop grand (maximum %max_size% octets).</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Invalid mime type (%mime_type%).</source>
+        <target>Type mime invalide (%mime_type%).</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>The uploaded file was only partially uploaded.</source>
+        <target>Le fichier a été partiellement chargé</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Missing a temporary folder.</source>
+        <target>Il manque un répertoire temporaire</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Failed to write file to disk.</source>
+        <target>Impossible d'écrire sur le disque.</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>File upload stopped by extension.</source>
+        <target>Extension invalide.</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Site name</source>
+        <target>Nom du site</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Main url</source>
+        <target>Url du site principal</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Support link</source>
+        <target>Lien de support</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Support text</source>
+        <target>Texte de support</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Logo</source>
+        <target>Logo</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Email from</source>
+        <target>Courriels envoyés de</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Name from</source>
+        <target>Courriels envoyés par</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Available languages</source>
+        <target>Langues disponibles</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Name of this site as it should appear in the title of the browser</source>
+        <target>Nom du site tel qu'il devrait apparaître comme titre du navigateur</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>The url of the site of the organisation (not the authentication server url)</source>
+        <target>L'url du site de l'organisation (pas le serveur d'authentification)</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Optional link to a support form and contact information or email address for support.  If present, the link will show in the side menu in a colored box.</source>
+        <target>Lien optionnel vers un formulaire ou une page de support.  Ou adresse courriel du support.  Si ce champ est présent, le lien apparaîtra dans la barre de droite, dans une boîte colorée.</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Optional text for the above link.</source>
+        <target>Texte optionnel pour le lien ci-haut.</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>The logo image that will be shown in the header of the site</source>
+        <target>Le logo en entête de cette page</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>The email that emails sent from the application appear to be from</source>
+        <target>L'adresse courriel utilisé dans le champ de: des courriels envoyés par cette application</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>The name that emails sent from the application appear to be from</source>
+        <target>Le nom qui identifiera le précédent courriel</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>comma-separated list of language_code available. Ex: en,fr</source>
+        <target>Liste séparée par des virgules des langues disponibles.  Par ex: fr,en</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>First name</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Last name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Email address</source>
+        <target>Courriel</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>Db type</source>
+        <target>Type BD</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Db server</source>
+        <target>Serveur de BD</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>Db name</source>
+        <target>Nom de la BD</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>Db username</source>
+        <target>Nom d'usager BD</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>Db password</source>
+        <target>Mot de passe BD</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>mysql</source>
+        <target>mysql</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>pgsql</source>
+        <target>pgsql</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>"%value%" is not a number.</source>
+        <target>"%value%" n'est pas un nombre.</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>Name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>gw id</source>
+        <target>gw id</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Address civic number</source>
+        <target>No civique</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Street name</source>
+        <target>Rue</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>City</source>
+        <target>Ville</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Province</source>
+        <target>Province</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>Country</source>
+        <target>Pays</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Postal code</source>
+        <target>Code postal</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Public phone number</source>
+        <target>No de téléphone public</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>Public email</source>
+        <target>Courriel public</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>Mass transit info</source>
+        <target>Info transport en commun</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>In planning</source>
+        <target>En planification</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>Deployed</source>
+        <target>Déployé</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>In testing</source>
+        <target>En test</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>Non-Wifidog node</source>
+        <target>Noeud non-wifidog</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Permanently closed</source>
+        <target>Fermé pour de bon</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Temporarily closed</source>
+        <target>Fermé temporairement</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Edit Node</source>
+        <target>Éditer noeud</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>General</source>
+        <target>Général</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>Back to list</source>
+        <target>Retour à la liste</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>A node with the same gateway id already exists.</source>
+        <target>Un noeud avec le même gateway id existe déjà.</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Users</source>
+        <target>Usagers</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Server configuration</source>
+        <target>Configuration du serveur</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Network login</source>
+        <target>Login réseau</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Logout</source>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Show administrative login link?</source>
+        <target>Montrer lien de login administratif</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Whether the main menu on the right should display a link to the administrative login page</source>
+        <target>Cocher pour que le lien de login administratif soit présent dans le menu de droite</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Show network login link?</source>
+        <target>Montrer lien de login réseau</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Whether the main menu on the right should display a link to the network login page.</source>
+        <target>Cocher pour que le lien de login réseau soit présent dans le menu de droite</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Plugins marked with * can be configured, but they need to be enabled.</source>
+        <target>Les plugins marqués d'une * peuvent être configurés, mais doivent être activés d'abord</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Prerequisites</source>
+        <target>Pré-requis</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Save</source>
+        <target>Sauvegarder</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>Groups</source>
+        <target>Groupes</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>New</source>
+        <target>Nouveau</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Name:</source>
+        <target>Nom:</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>Gw:</source>
+        <target>Gw:</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Description:</source>
+        <target>Description:</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Deployment status:</source>
+        <target>Status de déploiment:</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Created at:</source>
+        <target>Date de création:</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Updated at:</source>
+        <target>Mis à jour:</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>Civic number:</source>
+        <target>No civique:</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Street name:</source>
+        <target>Rue:</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>City:</source>
+        <target>Ville:</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>Province:</source>
+        <target>Province:</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>Country:</source>
+        <target>Pays:</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>Postal Code:</source>
+        <target>Code postal:</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>Phone number:</source>
+        <target>No de téléphone:</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>Email:</source>
+        <target>Courriel:</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>Mass transit info:</source>
+        <target>Info de transport public:</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>Last heartbeat at:</source>
+        <target>Dernier appel:</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>Last heartbeat ip:</source>
+        <target>Dernier ip:</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>Last heartbeat sys uptime:</source>
+        <target>Dernier sys uptime:</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>Last heartbeat sys memfree:</source>
+        <target>Dernier sys memfree:</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>Last heartbeat sys load:</source>
+        <target>Dernier sys load:</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>Last heartbeat wifidog uptime:</source>
+        <target>Dernier wifidog uptime:</target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>Edit</source>
+        <target>Éditer</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>List</source>
+        <target>Liste</target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>No authenticator plugin has been installed and enabled so this is the default plugin.</source>
+        <target>Aucun authentificateur n'a été installé et activé, donc ceci est le plugin par défaut.</target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>Clicking the button below will authenticate you to the router</source>
+        <target>Cliquer sur le bouton ci-dessous pour vous authentifier</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>Login</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>Language</source>
+        <target>Langue</target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>Welcome to authPuppy. Before getting started, we need some information on the database. You will need to know the following items before proceeding.</source>
+        <target>Bienvenue sur authPuppy.  Avant de commencer, nous avons besoin de l'information sur la base de données.  Vous devrez savoir l'information suivante.</target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>Database name</source>
+        <target>Nom de la BD</target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>Database username</source>
+        <target>Nom d'usager de la BD</target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>Database password</source>
+        <target>Mot de passe de la BD</target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>Database host</source>
+        <target>Serveur BD</target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>If for any reason this automatic file creation doesn't work, don't worry. All this does is fill in the database information to a configuration file. You may also simply open &lt;code&gt;databases.yml&lt;/code&gt; in a text editor, fill in your information, and save it.</source>
+        <target>Si la création automatique de fichier n'existe pas, c'est correct.  Tout ce que fait cette fonction est de mettre les information sur la BD dans un fichier de configuration.  Vous pouvez manuellement éditer le fichier &lt;code&gt;databases.yml&lt;/code&gt; dans un éditeur de texte, y mettre les informations et le sauvegarder.</target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>In all likelihood, these items were supplied to you by your Web Host. If you do not have this information, then you will need to contact them before you can continue. If you&amp;#8217;re all ready&amp;hellip;</source>
+        <target>Ces informations devrait vous avoir été fournies par votre hébergeur web.  Si vous ne les avez pas, vous devrez contacter votre hébergeur avant de continuer.  Si vous êtes prêts&amp;hellip;</target> 
+      </trans-unit>
+      <trans-unit id="148">
+        <source>Let&amp;#8217;s go!</source>
+        <target>Commencer!</target>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>Next</source>
+        <target>Suivant</target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>cURL PHP extension is loaded?</source>
+        <target>Extension PHP cURL chargée?</target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>For &lt;strong&gt;more information&lt;/strong&gt; on the installation process visit &lt;a href='http://www.authpuppy.org/doc/Getting_Started'&gt;the Getting Started page&lt;/a&gt;</source>
+        <target>Pour &lt;strong&gt; plus d'information&lt;/string&gt; sur le processus d'installation, visitez &lt;a href='http://www.authpuppy.org/doc/Getting_Started'&gt;le wiki&lt;/a&gt;</target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>By clicking "Next", you'll start the migration process to &lt;strong&gt;create / update the db&lt;/strong&gt; to its actual version.</source>
+        <target>En cliquant sur "Suivant", vous amorcerez le processus de &lt;strong&gt;création / mise à jour de la base de données&lt;/strong&gt; à sa version actuelle.</target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>The &lt;strong&gt;database must exist&lt;/strong&gt; and must be &lt;strong&gt;configured&lt;/strong&gt; in &lt;i&gt;config/databases.yml&lt;/i&gt; (a default example can be found in config/databases.yml.default)</source>
+        <target>La &lt;strong&gt;base de données doit exister&lt;/strong&gt; et doit &lt;strong&gt;être configurée&lt;/strong&gt; dans le fichier &lt;i&gt;config/databases.yml&lt;/i&gt; (un exemple par défaut se trouve dans le fichier config/datases.yml.default)</target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>Welcome</source>
+        <target>Bienvenue</target>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>Welcome to the default portal page of </source>
+        <target>Bienvenue sur la page portail par défaut de </target>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>New Node</source>
+        <target>Nouveau noeud</target>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>Show node and connection information?</source>
+        <target>Montrer l'information des nodes et connections</target>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>If checked, the header of the page will show how many deployed nodes are on the network and how many active connection currently run</source>
+        <target>Si coché, l'entête montrera le nombre de noeuds déployés sur le réseau et le nombre de connections actives</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

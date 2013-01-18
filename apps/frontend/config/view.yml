@@ -1,0 +1,26 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Authpuppy Authentication Server
+    description:  Authpuppy authentication server for wifidog wireless networks
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [blueprint/screen.css,blueprint/print.css: { media: print },main.css]
+
+  javascripts:    [authpuppy.js]
+
+  has_layout:     true
+  layout:         layout
+
+pingSuccess:
+  has_layout:     false
+  
+authSuccess:
+  has_layout:     false

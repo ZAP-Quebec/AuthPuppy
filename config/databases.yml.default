@@ -1,0 +1,19 @@
+# example connection for a mysql database
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=authpuppy'
+      username: authpuppy
+      password: authpuppydev
+
+# example connection for a postgresql database
+#all:
+#  doctrine:
+#    class: sfDoctrineDatabase
+#    param:
+#      dsn: 'pgsql:host=localhost;dbname=newtest'
+#      username: newtest
+#      password: newtest
+
+      

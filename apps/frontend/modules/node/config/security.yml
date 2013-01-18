@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+all:
+  is_secure: true
+  credentials: support
+
+login:
+  is_secure: false
+  
+portal:
+  is_secure: false
+auth:
+  is_secure: false
+ping:
+  is_secure: false
+gwmessage:
+  is_secure: false
+  
+logout:
+  is_secure: false

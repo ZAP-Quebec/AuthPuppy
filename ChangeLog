@@ -1,0 +1,114 @@
+2011-08-31: gbastien
+  - Added german translation, contribution of Gregor Glashüttner (bug #805564)
+  *** Releasing 1.0.0 stable from latest alpha ***
+
+2011-07-03: gbastien
+  *** Preparing the 0.1.2-alpha release ***
+
+2011-06-25: gbastien
+  - Updated plugin sfDoctrineGuardPlugin to 5.0.0 and enabled the forgot password for admin users (bug #714598)
+  - Corrected text at top of page to show the number of deployed nodes instead of total
+  - Allow user to logout from the network (with php session, so not gateway-accurate) (bug #732830)
+
+2011-06-16: gbastien, fsheedy
+  - Corrected preinstall bug when server not in root (bug #752585)
+  - Changed the duration display format (bug #798402)
+  - Active users and nodes count can optionally be shown on the server header (bug #708992)
+  - Feedback when saving or creating nodes
+  - Default portal page behavior is to redirect to origin url (bug #662314)
+  - Incoming and outgoing data are now floats instead of integer
+
+2011-06-02: gbastien
+  - Added node filters (bug #708990)
+  - Added getErrors function to the authenticator interface
+
+2011-05-15: gbastien
+  - Added new event call to user setup
+  - Corrected the credential_s_ of some modules
+  - Added the node to the authenticator, because it may be needed by some of them
+
+2011-05-01: gbastien
+  - Added node function getNodesByStatuses to select nodes by an array of statuses
+
+2011-03-29: gbastien, fsheedy
+  - Add images for install pages (bug #745126)
+  - *** Preparing the 0.1.1-stable release ***
+
+2011-03-23: gbastien
+  - Added new translatable string, thanks to Robin Jones (bug #719761)
+  - Translated them in french
+  - Login page redirect only when not posting the page (patch by Markus Gschwendt)
+  - Setting of variables before the login page redirect so they can be used for the portal page
+  - Other languages than french or english can be selected (bug #730997)
+
+2011-03-20: fsheedy
+  - Patch by Robin Jones so preinstall is compatible with Windows IIS (bug #721001)
+  - Added an IE6 countdown warning (bug #734035)
+
+2011-03-07: gbastien
+  - Added polish translation for sf_guard plugin as contributed by Robin Jones
+  - *** Preparing the 0.1.1-beta release ***
+
+2011-02-20: fsheedy
+  - Corrected preinstall header bug.  (bug #722173)
+
+2011-02-19: gbastien
+  - Keep track of why a connection was refused (bug #716027)
+  - Possibility to configure the time before a idle connection expires
+
+2011-02-07: gbastien
+  - Secured actions with credentials (bug #714572)
+  - *** Preparing the 0.1.1-alpha release ***
+
+2011-02-03: gbastien
+  - Administrative and network login links can be configured not to appear
+  - No plugin configuration link if the plugin is not enabled (discussion in #662204)
+  - Changed the install plugin url version from : to _ to be more legit with all servers (discussion in #662204)
+  - Changed copyright notice (bug #712865)
+  - Removed 401 status returned when not authenticated (discussion in #662204)
+  - Changed web.config as mentioned by Robin Jones (in bug #662204)
+
+2011-02-02: gbastien
+  - Copied the web assets when installing plugins (bug #662204)
+  - Added a utility function to fetch a file at an external url, with either curl or file_get_contents (should solve #711339)
+
+2011-02-01: sheedf
+  - Added preinstall feature
+  - More beautifule GPL headers
+
+2011-01-17: gbastien
+  - Replaced deprecated ereg_replace function
+  - Redirected create and update node actions to the edit action
+  - Corrected doctrine's migration function for postgresql
+  - Removed databases.yml and added databases.yml.default.  Having this source controlled was problematic when updating servers.
+
+2010-10-18: gbastien
+  - negative duration now show 0m when displayed as string
+
+2010-10-12: gbastien
+  - patch by Robin Jones for Windows server compatibility (bug #656863)
+
+2010-10-08: gbastien, fsheedy
+  - Added headers to files to be compliant with GPLv2
+  - New cool jQuery menu
+  - Added web.config for windows based servers (bug #656863)
+  - Set max width of header image in configuration file (bug #656879)
+  - Cannot save gateways with case insensitively same gateway id (bug #621228)
+  - lang saved in a cookie
+
+2010-09-28: gbastien
+  - Added possibility to redirect network login page to requested page instead of home page (for offline login)
+  - Added the files LICENSE and README for GPLv2 requirements
+
+2010-09-15: gbastien
+  - Release Beta!!
+  - Fixed the sfDoctrineGuardPlugin fixtures
+
+2010-09-03: gbastien
+  - Added this file!
+  - Plugins config values now support arrays
+  - ConnectionTable.getLastConnection: added parameter $today boolean, to return the last connection only if it is today
+  - Added function apUtils::size_readable to return a string for a size in bytes, Kb, Mb, etc.
+  - The registerAuthenticator function can now deregister authenticator, by adding second parameter $active boolean
+  - Changed how the event portalpage.request to filter and what it expects in return
+

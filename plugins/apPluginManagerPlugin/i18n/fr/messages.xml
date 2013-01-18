@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="fr" datatype="plaintext" original="messages" date="2010-10-08T15:03:19Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>All available plugins</source>
+        <target>Tous les plugins disponibles</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>View installed plugins</source>
+        <target>Voir les plugins installés</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>You may either install or download a plugin.  Note that for install, the web server needs to have access privileges to the /plugins folder on the file system.  If it doesn't, you may download the plugin, unpack it and upload it to the web server.</source>
+        <target>Vous pouvez soit installer ou télécharger un plugin.  Pour l'installation, le serveur web doit avoir des accès en écriture au répertoire /plugin de l'application.  S'il n'a pas accès, vous pouvez télécharger le plugin, l'extraire et copier le répertoire dans le répertoire /plugins du serveur.'</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Not installed</source>
+        <target>Pas installé</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Update available</source>
+        <target>Mise à jour disponible</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Plugin is up to date</source>
+        <target>Le plugin est à jour</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Download</source>
+        <target>Télécharger</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Install</source>
+        <target>Installer</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>info</source>
+        <target>information</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Error </source>
+        <target>Erreur</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Installed: </source>
+        <target>Installé: </target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>version</source>
+        <target>version</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>No upgrade</source>
+        <target>Pas de mise à jour</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Yes </source>
+        <target>Oui</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>View all available plugins and updates</source>
+        <target>Voir tous les plugins et mises à jour disponibles</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Manage plugins</source>
+        <target>Gérer les plugins</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Execution Results</source>
+        <target>Résultats d'exécution</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Plugin name</source>
+        <target>Nom du plugin</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Database update required?</source>
+        <target>Mise à jour BD requise?</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Enabled?</source>
+        <target>Actif?</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Plugin Manager</source>
+        <target>Gestionnaire de plugins</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Save</source>
+        <target>Sauvegarder</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,20 @@
+save:
+  is_secure: true
+  credentials: admin
+  
+install:
+  is_secure: true
+  credentials: admin
+  
+index:
+  is_secure: true
+  credentials: support
+  
+configure:
+  is_secure: true
+  credentials: support
+  
+all:
+  is_secure: true
+  credentials: support
+  

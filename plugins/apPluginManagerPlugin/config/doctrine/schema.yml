@@ -1,0 +1,9 @@
+apPluginConfig:
+  columns:
+    pluginname:     { type: string(50), notnull: true }
+    config_option:  { type: string(250), notnull: true }
+    config_value:   { type: string, notnull: false }
+  options:
+    symfony:
+      form: false
+      filter: false  

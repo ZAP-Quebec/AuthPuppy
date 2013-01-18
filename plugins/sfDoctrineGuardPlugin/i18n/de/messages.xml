@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="fr" datatype="plaintext" original="messages" date="2010-10-08T15:03:19Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Register</source>
+        <target>Registrieren</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Signin</source>
+        <target>Anmelden</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>First name</source>
+        <target>Vorname</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Last name</source>
+        <target>Nachname</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Email address</source>
+        <target>Email Adresse</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Is active</source>
+        <target>Ist aktiv</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Is super admin</source>
+        <target>Ist Super Admin</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Last login</source>
+        <target>Letzte Anmeldung</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>from</source>
+        <target>von</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>to</source>
+        <target>zu</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>is empty</source>
+        <target>ist leer</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Created at</source>
+        <target>Erstellt am</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Groups list</source>
+        <target>Liste der Gruppen</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Permissions list</source>
+        <target>Liste der Berechtigungen</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Reset</source>
+        <target>Zurücksetzen</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Username</source>
+        <target>Benutzername</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Created at</source>
+        <target>Erstellt am</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Updated at</source>
+        <target>Letzte Änderung am</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Administrative signin</source>
+        <target>Administrationsanmeldung</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Username or E-Mail</source>
+        <target>Benutzername oder Email</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Password</source>
+        <target>Passwort</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Remember</source>
+        <target>Speichern</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>If you need access to the internet, please navigate to any web page and the login form will show up.  If not, then you are already connected.</source>
+        <target>Wenn Sie Zugriff auf das Internet benötigen surfen Sie eine beliebige Webseite an und das Anmeldeformular wird angezeigt. Wenn nicht sind Sie bereits verbunden.</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>yes or no</source>
+        <target>Ja oder Nein</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>yes</source>
+        <target>Ja</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>no</source>
+        <target>Nein</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Forgot your password?</source>
+        <target>Passwort vergessen?</target>
+      </trans-unit>
+          </body>
+  </file>
+</xliff>

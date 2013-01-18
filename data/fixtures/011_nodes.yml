@@ -1,0 +1,6 @@
+Node:
+  node1:
+    name: "My first node"
+    gw_id: "default"
+
+

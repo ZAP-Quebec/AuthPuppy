@@ -1,0 +1,34 @@
+ap_pluginmanager:
+  url:   /plugin/manage
+  param: { module: apPluginManager, action: index }
+  
+ap_pluginmanager_all:
+  url:   /plugin/manage/all
+  param: { module: apPluginManager, action: all }
+  
+ap_pluginmanager_install:
+  url:   /plugin/install/:plugin/:todo/:version/:stability
+  param: { module: apPluginManager, action: install }
+  requirements:
+    todo: (download|install)
+  
+ap_pluginmanager_save:
+  url:   /plugin/manage/save
+  param: { module: apPluginManager, action: save }
+  
+ap_plugin_configure:
+  class: sfObjectRoute
+  url:   /plugin/configure/:name
+  param: { module: apPluginManager, action: configure }
+  options: { model: apPlugin, type: object, method: getPlugin }
+  requirements:
+    sf_method: [get,post]
+
+ap_plugin_dbupgrade:
+  class: sfObjectRoute
+  url:   /plugin/dbupgrade/:name
+  param: { module: apPluginManager, action: dbupgrade }
+  options: { model: apPlugin, type: object, method: getPlugin }
+  requirements:
+    sf_method: [get,post]
+

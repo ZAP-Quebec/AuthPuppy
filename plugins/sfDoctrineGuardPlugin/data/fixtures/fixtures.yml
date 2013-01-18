@@ -1,0 +1,17 @@
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission
+  Permission_support:
+    name:           support
+    description:    Support permission
+    
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin, Permission_support]
+  Group_support:
+    name:           support
+    description:    Support group
+    Permissions:    [Permission_support]

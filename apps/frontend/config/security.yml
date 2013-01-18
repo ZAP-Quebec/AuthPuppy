@@ -1,0 +1,8 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+all:
+  is_secure: true
+
+ChangeLanguage:
+  is_secure: false

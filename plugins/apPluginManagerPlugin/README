@@ -1,0 +1,3 @@
+This plugin is part of the core of the AuthPuppy authentication server.  
+
+It is not meant to be distributed outside the authpuppy package, although you are free to use this or part of this code to manage your own plugin.

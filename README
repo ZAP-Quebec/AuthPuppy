@@ -1,0 +1,18 @@
+AuthPuppy is an authentication server for wifidog-based networks.  It allows to authenticate users using various authentication methods and also monitors the connections on the network and acts as a captive portal.  
+
+It comes as a small core, with the possibility to install many of the available plugins to extend its functionnality.  Supported plugins can be found at http://plugins.authpuppy.org and documentation on how to install them, or develop your own, is available in the authpuppy wiki: http://authpuppy.org/doc
+
+AuthPuppy uses the symfony framework, an open-source php framework that eases the development effort of the software.
+
+AuthPuppy was written entirely in PHP 5.
+It requires an apache server running php5 and a database backend.  It has been tested with the mysql and postgresql databases, but it should work with any other database supported by the symfony framework.
+
+LICENSE
+-------
+
+see LICENSE file
+
+INSTALLATION
+------------
+
+see http://authpuppy.org/doc

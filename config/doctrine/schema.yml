@@ -1,0 +1,91 @@
+---
+detect_relations: true
+
+Node:
+  tableName: nodes
+  actAs: [Timestampable]
+  columns:
+    name:
+      type: string(150)
+      notnull: true
+    gw_id:
+      type: string(50)
+      notnull: true
+      unique: true
+    description:
+      type: string(1000)
+    civic_number:
+      type: string(20)
+    street_name:
+      type: string(150)
+    city:
+      type: string(150)
+    province:
+      type: string(150)
+    country:
+      type: string(150)
+    postal_code:
+      type: string(15)
+    public_phone_number:
+      type: string(50)
+    public_email:
+      type: string(150)
+    mass_transit_info:
+      type: string(500)
+    deployment_status:
+      type: string(20)
+    last_heartbeat_at: timestamp
+    last_heartbeat_ip:
+      type: string(255)
+    last_heartbeat_sys_uptime: integer
+    last_heartbeat_sys_memfree: integer
+    last_heartbeat_sys_load: float
+    last_heartbeat_wifidog_uptime: integer
+  options:
+    symfony:
+      form: false
+      filter: false 
+      model: false
+
+Connection:
+  tableName: connections
+  actAs: [Timestampable]
+  columns:
+    node_id:
+      type: integer
+      notnull: true
+    token: 
+      type: string(255)
+      unique: true
+      notnull: true
+    status:
+      type: string(255)
+      notnull: true
+    mac:
+      type: string(255)
+    ip:
+      type: string(255)
+    auth_type:
+      type: string(255)
+    identity:
+      type: string(255)
+    incoming:
+      type: float
+      default: 0
+    outgoing:
+      type: float
+      default: 0
+  relations:
+    Node:
+      class: Node
+      local: node_id
+      foreign: id
+      type: one
+      onDelete: CASCADE
+  options:
+    symfony:
+      form: false
+      filter: false 
+      model: false
+      
+

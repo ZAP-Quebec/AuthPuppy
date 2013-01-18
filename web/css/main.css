@@ -1,0 +1,155 @@
+
+#page {
+    background: url(../images/background.png) repeat-y top;
+}
+
+#header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left:20px;
+}
+
+#content {
+    margin-left: 20px;
+    padding-right: 10px;
+    background: url(../images/line.png) repeat-y right top;
+}
+
+h1, h2 {
+    color: #F57900;
+}
+
+#menu {
+    width: 260px;
+}
+
+/*ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+    padding-left: 18px;
+}*/
+
+#footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table tr th {
+  font-weight: bold;
+  border-bottom: 1px dotted black;
+}
+table tr td {
+  border-bottom: 1px dotted black;
+  background-color: #bbbbbb;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table tr.online td {
+  background-color: PaleGreen;
+}
+
+.flash_notice {
+	background-color: #ECECA6;
+	padding: 10px;
+}
+
+table tr.error td {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
+table tr.notice td {background:#FFF6BF;color:#514721;border-color:#FFD324;}
+table tr.success td {background:#E6EFC2;color:#264409;border-color:#C6D880;}
+.plugin-name {font-weight: bold;}
+.collapsed { display: none;}
+.paddeddiv { padding-left: 2em;}
+
+.task {padding:0;margin-bottom:0;border:0;}
+.help {margin-top:50px;}
+
+/* Main Menu */
+/* JQuery Accordion Plugin
+
+This plugin is free for any use.
+Feel free to adapt / improve it as well.
+
+If you're using this plugin (and I know you are) I'd appreciate a link to my site or a small donation to paypal@i-marco.nl.
+
+Copyright 2007-2010 by Marco van Hylckama Vlieg
+
+http://www.i-marco.nl/weblog/
+marco@i-marco.nl
+*/
+
+ul.menu, ul.menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu a {
+  display: block;
+  text-decoration: none;
+}
+
+ul.menu li {
+  margin-top: 1px;
+}
+
+ul.menu li a, ul.menu ul.menu li a {
+  background: #333;
+  color: #fff;
+  padding: 0.5em;
+}
+
+ul.menu li a:hover, ul.menu ul.menu li a:hover {
+  background: #000;
+}
+
+ul.menu li ul li a, ul.menu ul.menu li ul li a {
+  background: #ccc;
+  color: #000;
+  padding-left: 20px;
+}
+
+ul.menu li ul li a:hover, ul.menu ul.menu li ul li a:hover {
+  background: #aaa;
+  border-left: 5px #000 solid;
+  padding-left: 15px;
+}
+ul.menu ul.menu li a:hover {
+    border-left: 0;
+    padding-left: 0.5em;
+}
+ul.menu ul.menu {
+    border-left: 5px #f00 solid;
+}
+ul.menu a.active, ul.menu ul.menu li a.active, ul.menu a.active:hover, ul.menu ul.menu li a.active:hover {
+    text-decoration: underline;
+    /*background: #c00;*/
+}
+div.panel {
+    border: 1px #000 solid;
+    padding: 5px;
+    margin-top: 1px;
+}
+
+ul.menu div.panel a, ul.menu div.panel li a:hover  {
+    display :inline;
+    color: #666;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-weight: bold;
+}
+ul.menu div.panel a:hover {
+    color: #000;
+    text-decoration: underline;
+}
